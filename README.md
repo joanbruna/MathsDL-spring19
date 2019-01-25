@@ -81,4 +81,4 @@ plus a participation grade. The detailed abstract of the project will be graded 
 
 ### Lab sessions / Parallel Curricula
 
-TBD
+## [NeuralODE living document](https://docs.google.com/document/d/1GHvyCCZ3Ep-IWa5QSQ6NMtPsCJry9h0jOPues5iEIus/edit?usp=sharing)
