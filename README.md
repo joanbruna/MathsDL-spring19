@@ -82,3 +82,10 @@ plus a participation grade. The detailed abstract of the project will be graded 
 ### Lab sessions / Parallel Curricula
 
 ## [NeuralODE living document](https://docs.google.com/document/d/1GHvyCCZ3Ep-IWa5QSQ6NMtPsCJry9h0jOPues5iEIus/edit?usp=sharing)
+
+* Class 1: Numerical solution of ODEs I
+  * Motivation: ODEs are used to mathematically model a number of natural processes and phenomena. The study of their numerical 
+    simulations is one of the main topics in numerical analysis and of fundamental importance in applied sciences. 
+  * Required Reading: 
+    * Sections 12.1-4 from An Introduction to Numerical Analysis (‘INA’)
+    * Sections 11.1-3 from Numerical Mathematics (‘NM’)
