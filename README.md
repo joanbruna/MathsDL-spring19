@@ -89,3 +89,18 @@ plus a participation grade. The detailed abstract of the project will be graded 
   * Required Reading: 
     * Sections 12.1-4 from An Introduction to Numerical Analysis (‘INA’)
     * Sections 11.1-3 from Numerical Mathematics (‘NM’)
+  * Optional Reading:
+    * Section 12.5 from NM
+    * [Prof. Trefethen's class ODEs and Nonlinear Dynamics 4.2](http://podcasts.ox.ac.uk/odes-and-nonlinear-dynamics-42)
+  * Questions:
+    * From NA, Section 11.12: Exercise 1 
+    * From NM, Section 12: Exercises 12.3,12.4, 12.7
+    * Consider the following method for solving y' = f(y):
+			     y_{n+1} = y_n + h*(theta*f(y_n) + (1-theta)*f(y_{n+1}))
+		    Assuming sufficient smoothness of y and f, for what value of 0 <= theta <= 1 is 
+      the truncation error the smallest? What does this mean about the accuracy of 
+      the method?
+    * [Notebook](https://colab.research.google.com/drive/1bNg-RzZoelB3w8AUQ6mefRQuN3AdrIqX)
+
+    
+  
