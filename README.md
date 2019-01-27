@@ -96,7 +96,7 @@ plus a participation grade. The detailed abstract of the project will be graded 
     * From NA, Section 11.12: Exercise 1 
     * From NM, Section 12: Exercises 12.3,12.4, 12.7
     * Consider the following method for solving y' = f(y):
-      * y_{n+1} = y_n + h*(theta*f(y_n) + (1-theta)*f(y_{n+1}))					           
+           y_{n+1} = y_n + h*(theta*f(y_n) + (1-theta)*f(y_{n+1}))					           
       Assuming sufficient smoothness of y and f, for what value of 0 <= theta <= 1 is 
       the truncation error the smallest? What does this mean about the accuracy of 
       the method?
