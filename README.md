@@ -7,7 +7,7 @@ Topics course Mathematics of Deep Learning, NYU, Spring 19. CSCI-GA 3033.
 
 * Tutoring Session with Parallel Curricula (**optional**): Fridays 11am-12:15pm CIWW 101. 
 
-* Piazza: [sign-up here](https://piazza.com/nyu/spring2019/csciga3033)
+* Piazza: [sign-up here](https://urldefense.proofpoint.com/v2/url?u=https-3A__piazza.com_nyu_spring2019_cs3033&d=DwMGaQ&c=slrrB7dE8n7gBJbeO0g-IQ&r=D79eAR9vcK1fGoFi0VneQw&m=jprvjs_QLgKazI4kMXyewKYRJO5FV1Anc1A9XytirXE&s=dNRDS_aDxewx3VMb2lPhTXNVVALeSQVxOkNgnOqYPuM&e=)
 
 * Office Hours: Tuesdays 9:30am-11:00am
 
