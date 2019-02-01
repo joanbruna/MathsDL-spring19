@@ -41,7 +41,7 @@ Besides the lectures, we will also run a parallel curricula (optional), followin
   * Landscape of Deep Learning Optimization (Tensor/Matrix factorization, Deep Nets; open problems). 
   * Generalization in Deep Learning. 
   
-* Part III (time permitting): Open qustions on Reinforcement Learning
+* Part III (time permitting): Open questions on Reinforcement Learning
 
 
 ## Pre-requisites
