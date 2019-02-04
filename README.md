@@ -83,6 +83,21 @@ plus a participation grade. The detailed abstract of the project will be graded 
 
 ### NeuralODE: [Living document](https://docs.google.com/document/d/1GHvyCCZ3Ep-IWa5QSQ6NMtPsCJry9h0jOPues5iEIus/edit?usp=sharing)
 
+* Class 2: Numerical solution of ODEs II
+  * Motivation: In the previous class we introduced some simple schemes to numerically solve ODEs. In this class we go through some more involved schemes and their convergence analysis. 
+  * Required Reading: 
+    * Runge-Kutta methods: Section 11.8 from NM or Sections 12.{5,12} from NA
+    * Multi-step methods: Sections 12.6-9 from NA or Section 11.5-6 from NM
+    * System of ODEs: Sections 11.9-10 from NM or Sections 12.10-11 from NA
+  * Optional Reading:
+    * [Prof. Trefethen's class ODEs and Nonlinear Dynamics 4.1](http://podcasts.ox.ac.uk/odes-and-nonlinear-dynamics-41)
+    * Predictor-corrector methods: Section 11.7 from NM
+    * Richardson extrapolation: Section 16.4 from [Numerical Recipes](http://numerical.recipes/)
+    * [Automatic Selection of Methods for Solving Stiff and Nonstiff Systems of Ordinary Differential Equations](https://epubs.siam.org/doi/pdf/10.1137/0904010?casa_token=sBjDZTSayFQAAAAA:XhlfyWkS4MRFNRnrZ6LmQff_UXAH7riLBkpcA58llDnYEJycmMMbMCli9cFkoYKRT7uNos94IpA)
+  * Questions:
+    * From NA, Section 12: Exercises 12.11, 12.12, 12.19
+
+
 * Class 1: Numerical solution of ODEs I
   * Motivation: ODEs are used to mathematically model a number of natural processes and phenomena. The study of their numerical 
     simulations is one of the main topics in numerical analysis and of fundamental importance in applied sciences. 
