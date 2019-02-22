@@ -83,6 +83,39 @@ plus a participation grade. The detailed abstract of the project will be graded 
 
 ### NeuralODE: [Living document](https://docs.google.com/document/d/1GHvyCCZ3Ep-IWa5QSQ6NMtPsCJry9h0jOPues5iEIus/edit?usp=sharing)
 
+* Class 4: Normalizing Flow
+  * Motivation: In this class we take a little detour through the topic of Normalizing Flows. This is used for density estimation and generative modeling, and it is another model which can be seen a time-discretization of its continuous-time counterpart.
+  * Required Reading: 
+    * [Density Estimation by Dual Ascent of the Log-likelihood](https://math.nyu.edu/faculty/tabak/publications/CMSV8-1-10.pdf), minus Section 3 (DE)
+    * [A family of non-parametric density estimation algorithms](https://math.nyu.edu/faculty/tabak/publications/Tabak-Turner.pdf) 
+    * [A post on Normalizing flow](http://akosiorek.github.io/ml/2018/04/03/norm_flows.html)
+  * Optional Reading:
+    * [Variational Inference with Normalizing Flows](https://arxiv.org/pdf/1505.05770.pdf)
+    * [High-Dimensional Probability Estimation with Deep Density Models](https://arxiv.org/pdf/1302.5125.pdf)
+  * Questions:
+    * In DE, what is the difference between t and t, i.e. what do they represent?
+    * In DE, why does eq. (4.2) imply convergence t   as t ?
+    * What is the computational complexity of evaluating a determinant of a N Nmatrix, and why is that relevant in this context?
+
+
+* Class 3: ResNets
+  * Motivation: The introduction of Residual Networks (ResNets) made possible to train very deep networks. In this section we study some residual architectures variants and their properties. We then look into how ResNets approximates ODEs and how this interpretation can motivate neural net architectures and new training approaches. 
+  * Required Reading: 
+    * ResNets: [ResNets](https://www.coursera.org/lecture/convolutional-neural-networks/resnets-HAhz9) and [An Overview of ResNet and its Variants](https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035)
+    * ResNets and ODEs: 
+      * Sections 1-3 of [Multi-level Residual Networks from Dynamical Systems View](https://arxiv.org/pdf/1710.10348.pdf)
+      * [Reversible Architectures for Arbitrarily Deep Residual Neural Networks](https://arxiv.org/abs/1709.03698)
+  * Optional Reading:
+    * The original ResNets paper: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+    * Another blog post on ResNets: [Understanding and Implementing Architectures of ResNet and ResNeXt for state-of-the-art Image Classification](https://medium.com/@14prakash/understanding-and-implementing-architectures-of-resnet-and-resnext-for-state-of-the-art-image-cf51669e1624)
+    * Invertible ResNets: [The Reversible Residual Network: Backpropagation Without Storing Activations](https://arxiv.org/pdf/1707.04585.pdf)
+    * [Stable Architectures for Deep Neural Networks](https://arxiv.org/pdf/1705.03341.pdf)
+  * Questions:
+    * Can you think of any other neural network architectures which can be seen as discretizations of some ODE?
+    * Do you understand why adding ‘residual layers’ should not degrade the network performance?
+    * How do the authors of (Multi-level […]) explain the phenomena of still having almost as good performances in residual networks when removing a layer?
+    * Implement your favourite variant ResNet variant
+
 * Class 2: Numerical solution of ODEs II
   * Motivation: In the previous class we introduced some simple schemes to numerically solve ODEs. In this class we go through some more involved schemes and their convergence analysis. 
   * Required Reading: 
