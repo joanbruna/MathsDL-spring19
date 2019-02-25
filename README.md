@@ -86,8 +86,8 @@ plus a participation grade. The detailed abstract of the project will be graded 
 * Class 5: The adjoint method (and auto-diff)
   * Motivation: The adjoint method is a numerical method for efficiently computing the gradient of a function in numerical optimization problems. Understanding this method is essential to understand how to train ‘continuous depth’ nets. We also review the basics of Automatic Differentiation, which will help us understand the efficiency of the algorithm proposed in the NeuralODE paper.  
   * Required Reading: 
-    * Section 8.7 from Computational Science and Engineering (CSE)
-    * Sections 2,3 from Automatic Differentiation in Machine Learning: a Survey
+    * Section 8.7 from [Computational Science and Engineering](http://math.mit.edu/~gs/cse/) (CSE)
+    * Sections 2,3 from [Automatic Differentiation in Machine Learning: a Survey](http://www.jmlr.org/papers/volume18/17-468/17-468.pdf)
   * Questions:
     * Exercises 1,2,3 from Section 8.7 of CSE
     * Consider the problem of optimizing a real-valued function g over the solution of the ODE y' = Ay , y(0) = y_0 at time T>0: min_{y0, A} g(y(T)). What is the solution of the adjoint equation?
