@@ -83,6 +83,17 @@ plus a participation grade. The detailed abstract of the project will be graded 
 
 ### NeuralODE: [Living document](https://docs.google.com/document/d/1GHvyCCZ3Ep-IWa5QSQ6NMtPsCJry9h0jOPues5iEIus/edit?usp=sharing)
 
+* Class 5: The adjoint method (and auto-diff)
+  * Motivation: The adjoint method is a numerical method for efficiently computing the gradient of a function in numerical optimization problems. Understanding this method is essential to understand how to train ‘continuous depth’ nets. We also review the basics of Automatic Differentiation, which will help us understand the efficiency of the algorithm proposed in the NeuralODE paper.  
+  * Required Reading: 
+    * Section 8.7 from Computational Science and Engineering (CSE)
+    * Sections 2,3 from Automatic Differentiation in Machine Learning: a Survey
+  * Questions:
+    * Exercises 1,2,3 from Section 8.7 of CSE
+    * Consider the problem of optimizing a real-valued function g over the solution of the ODE y' = Ay , y(0) = y_0 at time T>0: min_{y0, A} g(y(T)). What is the solution of the adjoint equation?
+    * How do you get eq. (14) in Section 8.7 of CSE?
+
+
 * Class 4: Normalizing Flow
   * Motivation: In this class we take a little detour through the topic of Normalizing Flows. This is used for density estimation and generative modeling, and it is another model which can be seen a time-discretization of its continuous-time counterpart.
   * Required Reading: 
