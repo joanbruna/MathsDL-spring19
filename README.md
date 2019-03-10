@@ -17,6 +17,7 @@ __Lecture Instructor__: Joan Bruna (bruna@cims.nyu.edu)
 
 __Tutor (Parallel Curricula)__: Luca Venturi (lv800@nyu.edu)
 
+__Tutor (Parallel Curricula)__: Aaron Zweig (az831@nyu.edu)
 
 ## Syllabus
 
@@ -80,6 +81,22 @@ plus a participation grade. The detailed abstract of the project will be graded 
 
 
 ### Lab sessions / Parallel Curricula
+
+### DistributionalRL: [Living document](https://docs.google.com/document/d/1bk6txed3bjvPBsWF26HD4xab-iUylHtA7vGXfP4QFew/edit?usp=sharing)
+
+* Class 1: Basics of RL and Q learning
+  * Required Reading:
+    * [Sutton and Barto](http://incompleteideas.net/book/bookdraft2017nov5.pdf) (Ch 3, Ch 4, Ch 5, Ch 6.5)
+      * The standard introduction to RL.  Focus in Chapter 3 on getting used to the notation we’ll use throughout the module, and an introduction to the Bellman operator and fixed point equations.  In Chapter 4 the most important idea is value iteration (and exercise 4.10 will ask you to show why iterating the Q function is basically the same algorithm).
+      * Chapter 5 considers using full rollouts to estimate our value / Q function, rather than the DP updates.  Focus on the difference between on-policy and off-policy, which will be relevant to the final algorithm.
+      * Including 6.5 is an introduction to Q-learning in practice, updating one state-action pair at a time (without worrying about function approximation yet).
+    * [Contraction Mapping Theorem](https://www.math.ucdavis.edu/~hunter/book/ch3.pdf) (3.1)
+      * We’ll need the notion of contractions repeatedly throughout the module.  Their essential property is a unique fixed point, and you should have a clear understanding of the constructive proof of this fixed point (don’t worry about the ODE applications).
+  * Questions:
+    * Exercise 3.14, Exercise 4.10 in S & B
+    * Prove the Bellman operator contracts Q functions with regard to the infinity norm
+    * What is a sanity-check lower bound on complexity for Q learning?  Why might this be infeasible for RL problems in the wild?
+
 
 ### NeuralODE: [Living document](https://docs.google.com/document/d/1GHvyCCZ3Ep-IWa5QSQ6NMtPsCJry9h0jOPues5iEIus/edit?usp=sharing)
 
