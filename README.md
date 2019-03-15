@@ -133,7 +133,7 @@ plus a participation grade. The detailed abstract of the project will be graded 
   * Questions:
     * In DE, what is the difference between t and t, i.e. what do they represent?
     * In DE, why does eq. (4.2) imply convergence t   as t ?
-    * What is the computational complexity of evaluating a determinant of a N Nmatrix, and why is that relevant in this context?
+    * What is the computational complexity of evaluating a determinant of a N x N matrix, and why is that relevant in this context?
 
 
 * Class 3: ResNets
